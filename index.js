@@ -1,10 +1,8 @@
 var express = require('express');
-var app = express();
-var bodyParser = require('body-parser');
-app.use(bodyParser.json());
 var request = require('request');
-
-var express = require('express');
+var bodyParser = require('body-parser');
+var app = express();
+app.use(bodyParser.json());
 var token = "CAACjWxNgVvoBANeQqSgormngorbs4OimsaNisCYi63jlbe8vZB5MkSd0830nuHI6Dvz8CfZAzLcZCMBIZA7ZAVfJbZBQa5uMJuTKRzi0N5KVRhK9WWdAOZATmJl24JrbmNgdNgkfZASdkvfE6ZAchNsa8YVfHZB5ijQ8EmuntNSDhTHiUhvkybKYIJ5VmcnfFzexh5KH6jTwLrZCwZDZD";
 
 app.set('port', (process.env.PORT || 5000));
